@@ -15,3 +15,4 @@ var firstPlace = 0;
 var secondPlace = 1;
 var thirdPlace = 2;
 var fourthPlace = 3;
+
