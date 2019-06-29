@@ -1,3 +1,4 @@
+
 nav {
     background-color: peru;
 }
@@ -23,18 +24,24 @@ img {
 }
 .content {
     margin-top: 150px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 260px;
+    padding-bottom: 150px;
     margin-bottom: 30px;
     background-color: cornsilk;
+}
+#about{
+
+margin-right: 20px;
+
 }
 a {
     float: right;
 }
 .material-icons {
     background-color: peru;
+    float: right;
 }
 nav .brand-logo {
     color: cornsilk;
@@ -43,4 +50,10 @@ nav .brand-logo {
 #nav-mobile {
     font-family: 'Galdeano', sans-serif;
 
+}
+
+#button {
+    float: right;
+    margin: 10px;
+    margin-top: 23px;
 }
