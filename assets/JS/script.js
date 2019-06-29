@@ -11,19 +11,6 @@
 // // Initialize Firebase
 // firebase.initializeApp(firebaseConfig);
 
-
-// var firebaseConfig = {
-//     apiKey: "AIzaSyDu-IZRwVwHpM8FUVoFDo3GRECFZQd6C_w",
-//     authDomain: "travel-e625e.firebaseapp.com",
-//     databaseURL: "https://travel-e625e.firebaseio.com",
-//     projectId: "travel-e625e",
-//     storageBucket: "travel-e625e.appspot.com",
-//     messagingSenderId: "434096805274",
-//     appId: "1:434096805274:web:548f60062d0386a5"
-//   };
-//   // Initialize Firebase
-//   firebase.initializeApp(firebaseConfig);
-
 // // email log in 
 // var provider = new firebase.auth.GoogleAuthProvider();
 
@@ -47,42 +34,44 @@
 
 
 // API informaton
-
 var queryURL = "https://api.foursquare.com/v2/venues/search?near=";
-
-var location;
-
-var category;
-
 var apiKey = "&v=20150214&m=foursquare&client_secret=Y5GJB4RELAK5I3SVFXZOGNK4LDRTWLMYIA1BNBCKC2VTDLHI&client_id=IKCP0GXREJ5ERW5RTZUIAZQXVWKPDTQ5OPGJX3YEWBZZRWEK"
+var destination;
+var category;
+var upVotes = 0;
+
 
 $("#button").on("click", function(event){
   event.preventDefault();
   console.log("Search button clicked!!!");
 
-  location = $("#location").val();
-  category = $("#category").val();
-  console.log(location);
+  destination = $("#destination").val().trim();
+  category = $("#category").val().trim();
+
+  
+
+  console.log(destination);
   console.log(category);
+// debugger;
+fetch(`https://api.foursquare.com/v2/venues/search?near=${destination}&query=${category}${apiKey}`)
+.then(function(response) {
+  return response.json();
 
-// fetch(`https://api.foursquare.com/v2/venues/search?near=${location}&query=${category}${apiKey}`)
-// .then(function(response) {
-//   return response.json();
-// })
-// .then(function(myJson) {
-//   console.log(myJson)
-//   // console.log(JSON.stringify(myJson));
-// }).catch(function(err) {
-//       console.log(err)
-//         // Code for handling errors
-// });
-  // var URL = queryURL + location + "&query=" + category + apiKey;
+})
+.then(function(myJson) {
+  console.log(myJson)
+  // console.log(JSON.stringify(myJson));
+}).catch(function(err) {
+      console.log(err)
+        // Code for handling errors
+});
 
-  // $.ajax ({
-  //   url: URL,
-  //   method: "GET"
-  // }).then(function(response){
-  //   console.log(response);
-  // })
+
+
+})
+
+$(".material-icons").on("click",function(event){
+
+  console.log("Hello There This is working!")
 
 })

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-    <head>
+  <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +11,7 @@
       <!-- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
    
-      <link rel="stylesheet" href="./assets/CSS/index-style.css">
+      <link rel="stylesheet" href="./assets/CSS/style.css">
 
   
       <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -27,52 +27,34 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li id="text"><a href="">Home</a></li>
                     <li id="text"><a href="">List</a></li>
-                    <li id="text"><a href="">None</a></li>
+                    <li id="text"><a href="">Creators</a></li>
                 </ul>
+                <div class="nav-wrapper">
+                    <!-- <a href="#" class="brand-logo">Logo</a> -->
+                    <div class="input-field col s6">
+                        <input placeholder="destination" id="destination" type="text" class="validate">
+                        <label>City,State</label>
+                      </div>
+                      <div class="input-field col s6">
+                          <input placeholder="category" id="category" type="text" class="validate">
+                          <label>Event</label>
+                      </div>
+                      <button id="button">Submit</button>
             </div>
         </nav>
         </header>
-        <nav>
-            <div class="nav-wrapper">
-              <!-- <a href="#" class="brand-logo">Logo</a> -->
-              <div class="input-field col s6">
-                  <input placeholder="Placeholder" id="location" type="text" class="validate">
-                  <label for="location">location</label>
-                </div>
-                <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="category" type="text" class="validate">
-                    <label for="category">category</label>
-                </div>
-                <button id="button">Submit</button>
-            </div>
-          </nav>
-        <!-- <nav>
-            <div class="nav-wrapper">
-              <form id = "location-input">
-                <div class="input-field">
-                  <input id="location" type="text"/>
-                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                  <i class="material-icons">close</i>
-                </div>
-                <div class="input-field">
-                  <input id="category" type="text"/>
-                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                  <i class="material-icons">close</i>
-                </div>
-                <input id= "button" type="submit" value="Search"/>
-              </form>
-            </div>
-          </nav> -->
-        <div class="content">
-                <hr id="hr1">
-                <br>
-                <img id="locationPicture" src="#" alt="Picture of Location">
-                <p id="paragraphabout">This place is in jnfjsk, jnsdjan. It is really cool.</p>
-                <a class="btn-floating btn-large waves-effect"><i class="material-icons">add</i></a>
-        </div>
 
+        <div class="content">
+            <hr id="hr1">
+            <br>
+            <img id="destinationPicture" src="#" alt="Picture of destination">
+            <p id="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis quo aliquid nisi nihil eius reprehenderit voluptates illum? Laborum maxime natus aliquam eos eveniet saepe in vel nostrum optio adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis quo aliquid nisi nihil eius reprehenderit voluptates illum? Laborum maxime natus aliquam eos eveniet saepe in vel nostrum optio adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis quo aliquid nisi nihil eius reprehenderit voluptates illum? Laborum </p>
+            <button class="btn-floating btn-large waves-effect"><i class="material-icons">add</i></button>
+    </div>
+        
+       
       <!--JavaScript at end of body for optimized loading-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="./assets/JS/index-script.js" type="text/javascript"></script>
+      <script src="./assets/JS/script.js" type="text/javascript"></script>
     </body>
-  </html>
+</html>
