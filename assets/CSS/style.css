@@ -30,6 +30,7 @@ img {
     padding-bottom: 150px;
     margin-bottom: 30px;
     background-color: cornsilk;
+    font-family: 'Open Sans', sans-serif;
 }
 #about{
 
@@ -56,4 +57,17 @@ nav .brand-logo {
     float: right;
     margin: 10px;
     margin-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: cornsilk;
+    color: peru;
+}
+#category {
+    font-family: 'Open Sans', sans-serif;
+}
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+#destination {
+    font-family: 'Open Sans', sans-serif;
+    color: cornsilk;
 }
