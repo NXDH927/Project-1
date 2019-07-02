@@ -43,7 +43,14 @@ a {
     background-color: peru;
     float: right;
 }
+nav .brand-logo {
+    color: cornsilk;
+    font-family: 'Galdeano', sans-serif;
+}
+#nav-mobile {
+    font-family: 'Galdeano', sans-serif;
 
+}
 
 #button {
     float: right;
