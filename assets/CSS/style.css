@@ -1,0 +1,10 @@
+.group-profile {
+    grid-area: auto;
+  
+}
+input.photo{
+    margin: 10px;
+}
+#photos{
+    color: aquamarine
+}
