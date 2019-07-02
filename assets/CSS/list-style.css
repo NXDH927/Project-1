@@ -1,7 +1,11 @@
-body{
+.collection.with-header .collection-header{
 
-    background-image: url(assets/)
+    background-color: peru;
 
+}
+
+nav {
+    background-color: peru;
 }
 
 .brand-logo{
@@ -18,7 +22,7 @@ body{
 
 .collection.with-header .collection-header{
 
-    background-color: #ee6e73;
+
     color: white;
 
 }
@@ -33,5 +37,15 @@ body{
 #list{
 
     margin: 50px;
+
+}
+
+.material-icons {
+    background-color: peru;
+}
+
+#list{
+
+    background-color: peru;
 
 }
