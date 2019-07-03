@@ -11,8 +11,22 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-var firstPlace = 0;
-var secondPlace = 1;
-var thirdPlace = 2;
-var fourthPlace = 3;
+  var database = firebase.database();
+  var name = "Unknown";
+  var value = 0;
 
+  database.ref("/locations").on("child_added",function(snapshot) {
+    name = snapshot.val();
+    console.log(name);
+
+  $(".secondary-content").text(name);
+  // $(".secondary-content").text(value);
+    },
+
+  
+
+    function(errorObject) {
+      console.log("The read failed: " + errorObject.code);
+    
+
+});
