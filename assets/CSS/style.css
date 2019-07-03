@@ -1,3 +1,4 @@
+
 .group-profile {
     grid-area: auto;
   
@@ -8,3 +9,64 @@ input.photo{
 #photos{
     color: aquamarine
 }
+
+
+nav {
+    background-color: peru;
+}
+ul {
+    color: cornsilk;
+}
+.input-field {
+    float: right;
+}
+.brand-logo {
+    margin-left: 10px;
+}
+#nav-mobile {
+    margin-right: 50px;
+}
+img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.content {
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 150px;
+    margin-bottom: 30px;
+    background-color: cornsilk;
+}
+#about{
+
+margin-right: 20px;
+
+}
+a {
+    float: right;
+}
+.material-icons {
+    background-color: peru;
+    float: right;
+}
+nav .brand-logo {
+    color: cornsilk;
+    font-family: 'Galdeano', sans-serif;
+}
+#nav-mobile {
+    font-family: 'Galdeano', sans-serif;
+
+}
+
+#button {
+    float: right;
+    margin: 10px;
+    margin-top: 23px;
+}
+
