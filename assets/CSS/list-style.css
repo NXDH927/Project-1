@@ -1,0 +1,51 @@
+.collection.with-header .collection-header{
+
+    background-color: peru;
+
+}
+
+nav {
+    background-color: peru;
+}
+
+.brand-logo{
+
+    margin-left: 10px;
+
+}
+
+#nav-mobile{
+
+    margin-right: 50px;
+
+}
+
+.collection.with-header .collection-header{
+
+
+    color: white;
+
+}
+
+.collection-item{
+
+    height: 100px;
+
+
+}
+
+#list{
+
+    margin: 50px;
+
+}
+
+.material-icons {
+    background-color: peru;
+}
+
+#list{
+
+    background-color: peru;
+
+}
