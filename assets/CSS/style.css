@@ -35,12 +35,12 @@ img {
 }
 .content {
     margin-top: 150px;
-    /* margin-bottom: 150px; */
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 150px;
     margin-bottom: 30px;
     background-color: cornsilk;
+    display: block;
 }
 #about{
 
