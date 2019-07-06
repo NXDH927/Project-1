@@ -1,3 +1,26 @@
+#primary-content{
+
+    font-size: large;
+
+}
+
+
+nav .brand-logo {
+    color: cornsilk;
+    font-family: 'Galdeano', sans-serif;
+}
+
+#nav-mobile {
+    font-family: 'Galdeano', sans-serif;
+
+}
+
+#locationList{
+
+    font-family: 'Galdeano', sans-serif;
+
+}
+
 .collection.with-header .collection-header{
 
     background-color: peru;
@@ -27,12 +50,6 @@ nav {
 
 }
 
-.collection-item{
-
-    height: 100px;
-
-
-}
 
 #list{
 
@@ -57,3 +74,4 @@ nav {
     margin-left: 100px;
 
 }
+

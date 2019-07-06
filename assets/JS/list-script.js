@@ -19,7 +19,7 @@ var firebaseConfig = {
     name = snapshot.val();
     console.log(name);
 
-  $(".primary-content").text(name);
+  $(".primary-content").append(" " + name + "<br>");
   },
     function(errorObject) {
       console.log("The read failed: " + errorObject.code);

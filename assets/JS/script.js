@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // API informaton
 var queryURL = "https://api.foursquare.com/v2/venues/search?near=";
+var queryURL2 = "https://api.foursquare.com/v2/venues/search?near=Sandy,UT&query=Movies&v=20150214&m=foursquare&client_secret=Y5GJB4RELAK5I3SVFXZOGNK4LDRTWLMYIA1BNBCKC2VTDLHI&client_id=IKCP0GXREJ5ERW5RTZUIAZQXVWKPDTQ5OPGJX3YEWBZZRWEK";
 var apiKey = "&v=20150214&m=foursquare&client_secret=Y5GJB4RELAK5I3SVFXZOGNK4LDRTWLMYIA1BNBCKC2VTDLHI&client_id=IKCP0GXREJ5ERW5RTZUIAZQXVWKPDTQ5OPGJX3YEWBZZRWEK"
 var destination;
 var category;
@@ -45,6 +46,7 @@ $("#button").on("click", function(event){
   console.log(destination);
   console.log(category); 
 // debugger;
+
 fetch(`https://api.foursquare.com/v2/venues/search?near=${destination}&query=${category}${apiKey}`)
 .then(function(response) {
   // console.log(Promise.PromiseValue)
