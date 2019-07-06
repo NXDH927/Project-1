@@ -19,12 +19,8 @@ var firebaseConfig = {
     name = snapshot.val();
     console.log(name);
 
-  $(".secondary-content").text(name);
-  // $(".secondary-content").text(value);
-    },
-
-  
-
+  $(".primary-content").append(" " + name + "<br>");
+  },
     function(errorObject) {
       console.log("The read failed: " + errorObject.code);
     

@@ -10,7 +10,6 @@ input.photo{
     color: aquamarine
 }
 
-
 nav {
     background-color: peru;
 }
@@ -36,12 +35,12 @@ img {
 }
 .content {
     margin-top: 150px;
-    /* margin-bottom: 150px; */
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 150px;
     margin-bottom: 30px;
     background-color: cornsilk;
+    display: block;
 }
 #about{
 
@@ -70,3 +69,11 @@ nav .brand-logo {
     margin-top: 23px;
 }
 
+.userProfile{
+
+    background-color: cornsilk;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 300px;
+    padding: 5px;
+}

@@ -45,6 +45,7 @@ $("#button").on("click", function(event){
   console.log(destination);
   console.log(category); 
 // debugger;
+
 fetch(`https://api.foursquare.com/v2/venues/search?near=${destination}&query=${category}${apiKey}`)
 .then(function(response) {
   // console.log(Promise.PromiseValue)
